@@ -12,7 +12,7 @@ function lensGenerated(e){
 ####Global methods:
 LensFlare effect initialization.
 ```javascript
-LensFlare.init(bgr, width, height, flaresData, generated, finished)
+LensFlare.generate(bgr, width, height, flaresData, generated, finished)
 ```
 ===
 Generic function for drawing an image to canvas.
