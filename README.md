@@ -1,10 +1,10 @@
 # JS.LensFlare
-Lens Flare effect component. Relies on the TweenLite library. Not dependent on external graphical assets.
+Lens Flare effect component. Relies on the Greensock TweenLite library. Not dependent on external graphical resources - all assets are generated on the fly with pure javascript using canvas.
 
 Current Filesize: 6KB, Compiled: 1.6KB gzipped (3.66KB uncompressed) (http://closure-compiler.appspot.com/home)
 
 ####Demo:
-https://jsfiddle.net/Foumart/hjtb2790/
+https://jsfiddle.net/Foumart/mtos60jd/
 
 ####Usage:
 ```javascript
@@ -14,8 +14,6 @@ function lensGenerated(e){
 }
 ```
 Returns a canvas element with integrated play() method.
-
-bgrImage could be omitted - LensFlare will create an empty one and will play the effect on a transparent background.
 
 ===
 ####Global methods:
