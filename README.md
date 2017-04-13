@@ -3,12 +3,14 @@ Lens Flare effect component. Relies on the Greensock TweenLite library. Not depe
 
 All assets are generated on the fly with pure javascript using the HTML5 Canvas element.
 
-Current Filesize: 6KB, Compiled: 1.6KB gzipped (3.66KB uncompressed) (http://closure-compiler.appspot.com/home)
+Current Filesize: 6KB, Compiled: 1.6KB gzipped (3.66KB uncompressed)
 
-####Demo:
-https://jsfiddle.net/Foumart/mtos60jd/
+**Blog:** http://www.foumartgames.com/blog/6-JavaScript-HTML5-Canvas-Lens-Flare.html
 
-####Usage:
+
+**JSfiddle Demo:** https://jsfiddle.net/Foumart/mtos60jd/
+
+**Usage:**
 ```javascript
 var lensCanvas = LensFlare.init(bgrImage, width, height, customLensArray, lensGenerated);
 
@@ -18,18 +20,23 @@ function lensGenerated(e){
 ```
 Returns a canvas element with integrated play() method.
 
-===
-####Global methods:
+
+
+**Global methods:**
+
 LensFlare effect initialization.
 ```javascript
 LensFlare.init(bgrImage, width, height, flaresData, generated, finished)
 ```
-===
+
+
 Generic function for drawing an image to canvas.
 ```javascript
 LensFlare.drawToCanvas(canvas, img, width, height, clear, operation, x, y, alpha)
 ```
-===
+
+
+
 Generic function for canvas generation.
 ```javascript
 LensFlare.generateCanvas(width, height)
