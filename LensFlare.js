@@ -1,7 +1,7 @@
 /*
 	Lens Flare effect v1.0
-	Copyright (c) 2016 by Noncho Savov at StangaOne1.
-   	All rights reserved.
+	Copyright (c) 2016 by Noncho Savov.
+   	All rights reserved!
 
 	Redistribution and use in source and binary forms, with or without
 	modification, are permitted provided that the following conditions are met:
